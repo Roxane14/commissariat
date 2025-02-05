@@ -18,4 +18,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_COMMISSARIAT_42B52 }}
           channelId: live
           projectId: commissariat-42b52
-        working-directory: ./police-lookup
+      - working-directory: ./police-lookup
